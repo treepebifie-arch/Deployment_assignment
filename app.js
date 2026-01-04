@@ -16,7 +16,7 @@ app.get ('/', (req, res) => {
 });
 
 
-app.use ('/api/user', router)
+app.use ('/api/auth', router)
 
 app.listen (port, () => {
     dbConnection()

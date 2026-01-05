@@ -30,7 +30,7 @@ The folder structure is based on the MVC architecture, which helps to keep the c
 
 ├── .gitignore      // Specifies files/folders Git should ignore.
 ├── package.json    // contains all dependencies used in this project.
-├── index.js        // The main entry point and Express application setup.
+├── app.js        // The main entry point and Express application setup.
 ├── README.md       // Brief description of the project and how to run it.
 └──src 
     ├── models/         // Database Schemas
